@@ -32,5 +32,4 @@ def game():
         game_end()
 
 game_start()
-if __name__ == "__main__":
-    game()
+game()
