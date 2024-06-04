@@ -6,7 +6,7 @@ def game():
     foods = ["apple","banana","burger","cheese","grapes","pizza","pasta","spaghetti","burrito","taco",
              "french fries","hot dog","waffle","potato","okra","eggplant","nachos",
              "quesadilla","pazole","tacos al pastor","elote","tostadas","cobb salad","hamburger"]
-    print("list of food:",foods)
+    print(", ".join(foods))
     while i < 8 and point <= 10 :
         word = random.choice(foods)
         guess_word = input("Enter a guess: ")
